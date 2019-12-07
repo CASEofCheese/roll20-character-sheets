@@ -1,5 +1,5 @@
 /* ----------------------- classes for area display toggles -----------------------*/
-.sheet-switch-pc-show:not(:checked)~.sheet-switch-pc {display:none;}
+.sheet-switch-pc-show:(:checked)~.sheet-switch-pc {display:none;}
 .sheet-switch-npc-show:not(:checked)~.sheet-switch-npc {display:none;}
 
 .sheet-pc-spells-show:not(:checked)~.sheet-pc-spells {display:none;}
